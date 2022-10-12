@@ -3,7 +3,6 @@ import styles from "../styles/Home.module.css";
 import { GraphQLClient, gql } from "graphql-request";
 import BlogCard from "../components/BlogCard";
 
-// Change this client when able to generate own posts
 const graphcms = new GraphQLClient(
   "https://api-eu-west-2.graphcms.com/v2/cl21zpqgk4oep01xtflkm1vff/master"
 );

@@ -3,8 +3,8 @@ import styles from '../styles/BlogCard.module.css'
 
 export default function BlogCard({
   title, 
-  author, 
-  coverPhoto, 
+  author,
+  coverPhoto,
   datePublished, 
   slug
 }) {
@@ -18,7 +18,13 @@ export default function BlogCard({
       <div className={styles.text}>
         <h2>{title}</h2>
         <div className={styles.details}>
-
+          <div className={styles.author}>
+            <img src={author.avatar.url} alt=""></img>
+            <h3>{author.name}</h3>
+          </div>
+          <div className={styles.date}>
+            <h3>{datePublished}</h3>
+          </div>
         </div>
       </div>
     </div>

@@ -62,28 +62,31 @@ export async function getStaticProps({ params }) {
   };
 }
 
-export default function BlogPost({post}) {
+export default function BlogPost({ post }) {
   return (
 
     <main className={styles.blog}>
+      
+      {console.log("error here")}
 
       <img 
         className={styles.cover} 
         src={post.coverPhoto.url} 
         alt=""   
       />
-      
+
       <div className={styles.title}>
         <img src={post.author.avatar.url} alt="" />
         <div className={styles.authtext}>
           <h6>By {post.author.name}</h6>
           <h6 className={styles.date}>{post.datePublished}</h6>
         </div>
+        <h2>{post.title}</h2>
       </div>
-      <h2>{post.title}</h2>
 
-      <div className={styles.content} 
-      dangerouslySetInnderHTML={{ __html: post.content.html}}>
+      <div 
+        className={styles.content} 
+        dangerouslySetInnerHTML={{ __html: post.content.html}}>
       </div>
     </main>
   )

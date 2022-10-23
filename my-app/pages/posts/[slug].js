@@ -2,7 +2,7 @@ import styles from "../../styles/Slug.module.css";
 import { GraphQLClient, gql } from "graphql-request";
 
 const graphcms = new GraphQLClient(
-  "https://api-eu-west-2.graphcms.com/v2/cl21zpqgk4oep01xtflkm1vff/master"
+  "https://api-ap-southeast-2.hygraph.com/v2/cl9hqtf1n0sdo01uh615z6v5f/master"
 );
 
 // will query the specific post that the slug matches
@@ -43,29 +43,36 @@ const SLUGLIST = gql`
 // Here u call GraphQL to give you what you need (posts)
 // if it doesnt exist, you can provide a fallback website
 export async function getStaticPaths() {
-  const {posts} = await graphcms.request(SLUGLIST);
+  const { posts } = await graphcms.request(SLUGLIST);
   return {
-    paths: posts.map((post) => ({params: {slug: post.slug } })),
-    fallback:false, 
+    paths: posts.map((post) => ({ params: { slug: post.slug } })),
+    fallback: false,
   };
 }
 
-export async function getStaticProps({params}) {
+export async function getStaticProps({ params }) {
   const slug = params.slug;
-  const data = await graphcms.request(QUERY, {slug});
+  const data = await graphcms.request(QUERY, { slug });
   const post = data.post;
   return {
     props: {
       post,
     },
-    revalidate: 10,
+    revalidate: 30,
   };
 }
 
 export default function BlogPost({post}) {
   return (
+
     <main className={styles.blog}>
-      <img src={post.coverPhoto.url} className={styles.cover} alt="" />
+
+      <img 
+        className={styles.cover} 
+        src={post.coverPhoto.url} 
+        alt=""   
+      />
+      
       <div className={styles.title}>
         <img src={post.author.avatar.url} alt="" />
         <div className={styles.authtext}>
@@ -74,8 +81,9 @@ export default function BlogPost({post}) {
         </div>
       </div>
       <h2>{post.title}</h2>
+
       <div className={styles.content} 
-      dangerouslySetInnderHTML={{ __html: post.content.html }}>
+      dangerouslySetInnderHTML={{ __html: post.content.html}}>
       </div>
     </main>
   )

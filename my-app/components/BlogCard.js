@@ -1,4 +1,4 @@
-import Link from "next/link"
+import Link from "next/link";
 import styles from '../styles/BlogCard.module.css'
 
 export default function BlogCard({
@@ -6,11 +6,11 @@ export default function BlogCard({
   author,
   coverPhoto,
   datePublished, 
-  slug
+  slug,
 }) {
   return (
     <div className={styles.card}>
-      <Link href={'/post/' + `${slug}`}>
+      <Link href={'/post/' + slug}>
         <div className={styles.imgContainer}>
           <img src={coverPhoto.url} alt=""></img>
         </div>
@@ -19,7 +19,8 @@ export default function BlogCard({
         <h2>{title}</h2>
         <div className={styles.details}>
           <div className={styles.author}>
-            <img src={author.avatar.url} alt=""></img>
+            {console.log("author ovject", author.avatar)}
+            <img src={author.avatar.url} ></img>
             <h3>{author.name}</h3>
           </div>
           <div className={styles.date}>

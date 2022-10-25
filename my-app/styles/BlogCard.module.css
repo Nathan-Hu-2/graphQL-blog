@@ -1,14 +1,26 @@
+.body {
+  padding-top: 5rem;
+  
+}
+
+/* .BlogCard_text_oM0Mu {
+  background-color: #fff;
+  color: #fff
+} */
+
 .card {
-  margin-top: 5rem;
+  margin: 3rem 3rem;
   border-radius: 2rem;
   overflow: hidden;
-  box-shadow: 15px 20px 40px rgba(216, 211, 211, 0.4);
+  box-shadow: 15px 20px 40px rgba(24, 25, 25, 0.774);
 }
 .card h2 {
   padding: 0.5rem 0rem;
+  color: #fff;
 }
 .card h3 {
   font-size: 1rem;
+  color: #fff;
 }
 
 .imgContainer img {

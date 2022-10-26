@@ -17,13 +17,8 @@ const Hero = () => {
 
   return (
   <div>
-    <Image
-      src={mypic}
-      alt=""
-      width="100px"
-      height="100px"
-    />
-    
+
+
     {/* Image does not load */}
       {/* <img src={require('./images/logo.png')} alt="Blog hu"></img> */}
     {/* <ParticlesBackground /> */}

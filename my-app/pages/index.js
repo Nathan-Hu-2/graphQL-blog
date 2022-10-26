@@ -59,8 +59,6 @@ export default function Home({ posts }) {
       <Hero />
 
       <main className={styles.main}>
-      <div className="padding"> </div>
-
         {posts.map((post) => (
           <BlogCard
             title={post.title}

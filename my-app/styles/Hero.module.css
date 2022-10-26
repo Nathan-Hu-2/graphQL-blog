@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
 
 .hero-container {
   margin-top: 50vh;
@@ -9,15 +9,11 @@
   color: aqua;
   padding-left: 5%;
   line-height: 2;
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Inconsolata', monospace;
   font-size: 30px;
   justify-content: center;
 }
 
 .about {
   font-size: 26px;
-}
-
-.img {
-  height: 300px;
 }

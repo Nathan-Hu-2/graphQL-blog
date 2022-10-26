@@ -1,6 +1,7 @@
 import Link from "next/link";
 import styles from '../styles/BlogCard.module.css'
 
+
 export default function BlogCard({
   title, 
   author,

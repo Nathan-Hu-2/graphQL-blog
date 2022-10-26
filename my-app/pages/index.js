@@ -55,8 +55,10 @@ export default function Home({ posts }) {
         {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
 
-      <main className={styles.main}>
+
       <Hero />
+
+      <main className={styles.main}>
       <div className="padding"> </div>
 
         {posts.map((post) => (

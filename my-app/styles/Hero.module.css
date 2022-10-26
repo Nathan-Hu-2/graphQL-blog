@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+.hero-container {
+  padding-top: 50vh;
+  margin: 50vh;
+}
+
+.h1 {
+  font-family: 'Inconsolata', monospace;
+}

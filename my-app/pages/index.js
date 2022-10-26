@@ -2,6 +2,7 @@ import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import { GraphQLClient, gql } from "graphql-request";
 import BlogCard from "../components/BlogCard";
+import Hero from "../components/Hero";
 
 const graphcms = new GraphQLClient(
   "https://api-ap-southeast-2.hygraph.com/v2/cl9hqtf1n0sdo01uh615z6v5f/master"
@@ -46,6 +47,7 @@ export async function getStaticProps() {
 
 export default function Home({ posts }) {
   return (
+    
     <div className={styles.container}>
       <Head>
         <title>Blog Hu</title>
@@ -54,6 +56,9 @@ export default function Home({ posts }) {
       </Head>
 
       <main className={styles.main}>
+      <Hero />
+      <div className="padding"> </div>
+
         {posts.map((post) => (
           <BlogCard
             title={post.title}

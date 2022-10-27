@@ -1,22 +1,44 @@
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Freehand&display=swap');
 
 .hero {
-  margin-top: 35vh;
+  margin-top: 10vh;
   margin-bottom: 65vh;
+
 }
 
-.landing {
+.introCard {
+  padding-top: 10vh;
+}
+
+.lottie {
   float: right;
+  top: -250px;
+  position: relative;
+  display: inline-flex;
+  z-index: 0;
 }
 
 .title {
-  margin-top: 30vh;
-  color: aqua;
+  margin-top: 0vh;
+  color: #fff;
   padding-left: 5%;
   line-height: 2;
-  font-family: 'Inconsolata', monospace;
-  font-size: 30px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 1.5rem;
   justify-content: center;
+}
+
+.schematicStyle {
+  padding-top: 0vh;
+  font-size: 1rem;
+  font-family: 'Freehand', cursive;
+  color: #939EAD;
+}
+
+.h2 {
+  font-size: 2rem;
+  font-family: 'IBM Plex Sans', sans-serif;
 }
 
 .about {

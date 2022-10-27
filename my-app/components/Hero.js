@@ -3,11 +3,9 @@ import React from 'react';
 
 import styles from './../styles/Hero.module.css'
 
-// import ParticlesBackground from './Particles';
+import Lottie from 'react-lottie';
+import animationData from './images/heroLottie.json'
 
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'; 
-// import ScrollAnimation from './ScrollAnimation';
 
 import Image from 'next/image'
 import heroImage from './images/heroImage.png'
@@ -15,21 +13,45 @@ import heroImage from './images/heroImage.png'
 
 const Hero = () => {
 
+  const defaultOptions = {
+    loop: true,
+    autoplay: true,
+    animationData: animationData,
+    rendererSettings: {
+      preserveAspectRatio: "xMidYMid slice"
+    }
+  };
+
   return (
   <div className={styles.hero}>
-    <div className={styles.landing}>
-      <Image
-        src={heroImage}
-        alt=""
-        width="350px"
-        height="300px"
-      />
+    <div className={styles.introCard}>
+      <div>
+        <h3 className={styles.schematicStyle}> &lt;html&gt; </h3>
+        
+      </div>
+      <div className={styles.title}>
+        <h1>A personal blogging platform for  </h1>
+        <h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;all things &#123;computer science&#125;</h1>
+      </div>
+
+      <h3 className={styles.schematicStyle}> &lt;html&gt; </h3>
+
+      <div className={styles.lottie}>
+        <Lottie 
+        options={defaultOptions}
+          height={500}
+          width={500}
+        />
+      </div>
+
+      {/* <h3 className={styles.schematicStyle}> &lt;author&gt; Nathan Hu &lt;author&gt;</h3> */}
+      <h3 className={styles.schematicStyle}> &lt;author&gt; </h3>
+      <h3 className={styles.schematicStyle}> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nathan Hu</h3>
+      <h3 className={styles.schematicStyle}> &lt;author&gt; </h3>
     </div>
 
-    <div className={styles.title}>
-      <h1>Blog Hu,</h1>
-      <h1 className={styles.about}>A Repertoire of my Learnings! Repertoire of my Learnings! Repertoire of my Learnings!</h1>
-    </div>
+
+
   </div>
   )
 }

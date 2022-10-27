@@ -1,5 +1,5 @@
 import React from 'react';
-import ParticlesBackground from './Particles';
+// import ParticlesBackground from './Particles';
 
 import styles from './../styles/Hero.module.css'
 

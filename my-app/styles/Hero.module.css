@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
 
-.hero-container {
-  margin-top: 50vh;
+.hero {
+  margin-top: 35vh;
+  margin-bottom: 65vh;
+}
+
+.landing {
+  float: right;
 }
 
 .title {

@@ -10,21 +10,23 @@ import styles from './../styles/Hero.module.css'
 // import ScrollAnimation from './ScrollAnimation';
 
 import Image from 'next/image'
-import mypic from './images/logo.png'
+import heroImage from './images/heroImage.png'
 
 
 const Hero = () => {
 
   return (
-  <div>
-
-
-    {/* Image does not load */}
-      {/* <img src={require('./images/logo.png')} alt="Blog hu"></img> */}
-    {/* <ParticlesBackground /> */}
+  <div className={styles.hero}>
+    <div className={styles.landing}>
+      <Image
+        src={heroImage}
+        alt=""
+        width="350px"
+        height="300px"
+      />
+    </div>
 
     <div className={styles.title}>
-      {/* <ParticlesBackground /> */}
       <h1>Blog Hu,</h1>
       <h1 className={styles.about}>A Repertoire of my Learnings! Repertoire of my Learnings! Repertoire of my Learnings!</h1>
     </div>

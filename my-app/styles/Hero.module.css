@@ -19,7 +19,7 @@
 
 .hero {
   margin-top: 10vh;
-  margin-bottom: 30vh;
+  margin-bottom: 10vh;
 
 }
 
@@ -28,9 +28,9 @@
 } */
 
 .image {
-  margin-right: 4px;
+  background-image: url("../components/images/heroBackground.png");
   position: relative;
-  top: 6px;
+  /* z-index: 2; */
 }
 
 
@@ -53,7 +53,8 @@
 
 .schematicStyle {
   padding-top: 0vh;
-  font-size: 1.5vw;
+  /* font-size: 0.9vw; */
+  font-size: 1.2vw;
   font-family: 'Freehand', cursive;
   color: #939EAD;
 }
@@ -67,14 +68,8 @@
   font-size: 26px;
 }
 
-/* @media screen and (max-width: 550px) {
-  .body {
-    margin: 5% 5%;
-  }
+@media screen and (max-width: 550px) {
 
-  .nav {
-    padding: 0rem 0rem;
-  }
 
   .title {
     margin-top: 0vh;
@@ -85,4 +80,4 @@
     font-size: 0.8rem;
     justify-content: center;
   }
-} */
+}

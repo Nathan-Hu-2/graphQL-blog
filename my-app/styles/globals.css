@@ -57,11 +57,11 @@ a {
   font-weight: bold;
 }
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
   body {
     margin: 0% 0%;
   }
   nav {
     padding: 3rem 0rem;
   }
-}
+} */

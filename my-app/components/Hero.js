@@ -16,8 +16,8 @@ const Hero = () => {
 
       </div>
       <div className={styles.title}>
-        <h1>A <span style={{fontFamily: 'mavis-bold', color:'#7EDDD3'}}>personal </span> <span style={{fontFamily: 'mavis-bold', color:'#F44C7E'}}> blogging</span> site for</h1>
-        <h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;all things <span style={{ fontFamily: 'mavis-bold', color: '#F44C7E' }}>&#123;</span> <span style={{fontFamily: 'mavis-bold', color:'#7EDDD3'}}>computer </span><span style={{fontFamily: 'mavis-bold', color:'#F44C7E'}}>science</span> <span style={{ fontFamily: 'mavis-bold', color: '#7EDDD3' }}>&#125;</span>
+        <h1>A <span style={{color:'#7EDDD3'}}>personal </span> <span style={{ color:'#F44C7E'}}> blogging</span> </h1>
+        <h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;site for all things <span style={{  color: '#F44C7E' }}>&#123;</span> <span style={{ color:'#7EDDD3'}}>computer </span><span style={{color:'#F44C7E'}}>science</span> <span style={{  color: '#7EDDD3' }}>&#125;</span>
         </h1>
       </div>
 

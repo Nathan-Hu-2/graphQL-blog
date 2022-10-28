@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Freehand&display=swap');
 
-@font-face {
+/* @font-face {
   font-family: 'mavis-bold';
   src: url('./../components/fonts/MAVISBold.ttf');
 }
@@ -14,7 +14,7 @@
 @font-face {
   font-family: 'mavis-light';
   src: url('./../components/fonts/MAVISLight.ttf');
-}
+} */
 
 .hero {
   margin-top: 20vh;
@@ -44,7 +44,7 @@
   color: #fff;
   padding-left: 5%;
   line-height: 2;
-  font-family: 'mavis-light';
+  /* font-family: 'mavis-light'; */
   font-size: 1.7rem;
   justify-content: center;
 }
@@ -58,7 +58,7 @@
 
 .h2 {
   font-size: 2rem;
-  font-family: 'mavis-reg';
+  /* font-family: 'mavis-reg'; */
 }
 
 .about {

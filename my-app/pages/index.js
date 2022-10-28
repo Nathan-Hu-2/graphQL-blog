@@ -3,6 +3,8 @@ import styles from "../styles/Home.module.css";
 import { GraphQLClient, gql } from "graphql-request";
 import BlogCard from "../components/BlogCard";
 import Hero from "../components/Hero";
+import BlogRepo from "../components/BlogRepo";
+
 
 const graphcms = new GraphQLClient(
   "https://api-ap-southeast-2.hygraph.com/v2/cl9hqtf1n0sdo01uh615z6v5f/master"
@@ -57,6 +59,7 @@ export default function Home({ posts }) {
 
 
       <Hero />
+      <BlogRepo />
 
       <main className={styles.main}>
         {posts.map((post) => (
@@ -69,6 +72,8 @@ export default function Home({ posts }) {
             slug={post.slug}
           />
         ))}
+
+        
       </main>
     </div>
   );

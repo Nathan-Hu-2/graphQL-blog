@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'mavis-bold';
+  src: url('./../components/fonts/MAVISBold.ttf');
+}
+
+@font-face {
+  font-family: 'mavis-reg';
+  src: url('./../components/fonts/MAVISRegular.ttf');
+}
+
+@font-face {
+  font-family: 'mavis-light';
+  src: url('./../components/fonts/MAVISLight.ttf');
+}

@@ -24,15 +24,12 @@
 
 .title h2 {
   font-family: 'Inconsolata', monospace;
-  padding-top: 0rem;
   font-size: 1.54rem;
-
   color: aqua;
 }
 
 .title h6 {
   font-family: 'Inconsolata', monospace;
-  padding-top: 0rem;
   color: aqua;
   font-size: 0.8rem;
 }

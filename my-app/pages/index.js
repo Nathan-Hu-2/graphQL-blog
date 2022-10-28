@@ -4,6 +4,7 @@ import { GraphQLClient, gql } from "graphql-request";
 import BlogCard from "../components/BlogCard";
 import Hero from "../components/Hero";
 import BlogRepo from "../components/BlogRepo";
+import Footer from "../components/Footer";
 
 
 const graphcms = new GraphQLClient(
@@ -71,10 +72,10 @@ export default function Home({ posts }) {
             datePublished={post.datePublished}
             slug={post.slug}
           />
-        ))}
-
-        
+        ))}      
       </main>
+      <Footer />
+
     </div>
   );
 }

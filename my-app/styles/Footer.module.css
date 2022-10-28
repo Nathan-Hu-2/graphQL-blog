@@ -1,0 +1,14 @@
+.footer {
+  position: inherit;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+
+}
+
+.text {
+  justify-content: center;
+  font-size: 0.5rem;
+  color: #939EAD;
+  padding-left: 39vw;
+}
+

@@ -2,24 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Freehand&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
-/* @font-face {
-  font-family: 'mavis-bold';
-  src: url('./../components/fonts/MAVISBold.ttf');
-}
-
-@font-face {
-  font-family: 'mavis-reg';
-  src: url('./../components/fonts/MAVISRegular.ttf');
-}
-
-@font-face {
-  font-family: 'mavis-light';
-  src: url('./../components/fonts/MAVISLight.ttf');
-} */
 
 .hero {
   margin-top: 10vh;
-  margin-bottom: 20vh;
+  margin-bottom: 10vh;
 }
 
 /* .introCard {
@@ -68,8 +54,6 @@
 }
 
 @media screen and (max-width: 550px) {
-
-
   .title {
     margin-top: 0vh;
     color: #fff;

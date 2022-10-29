@@ -6,7 +6,7 @@
 
 .hero {
   margin: 2%;
-  height: 90vh;
+  height: 100vh;
   animation: fadeIn 5s;
   -webkit-animation: fadeIn 3s;
   -moz-animation: fadeIn 5s;

@@ -76,7 +76,13 @@
     line-height: 2;
     font-family: 'DM Serif Display', serif;
     font-size: 3.4vh;
+    text-align: center;
+
     /* justify-content: center; */
+  }
+
+  .about {
+    text-align: center;
   }
 }
 
@@ -92,6 +98,10 @@
     font-size: 3vh;
     /* display: flex;
     justify-content: center; */
+  }
+
+  .about {
+    text-align: center;
   }
 }
 

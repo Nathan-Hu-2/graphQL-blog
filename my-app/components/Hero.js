@@ -1,22 +1,22 @@
 import React from 'react';
-
 import styles from './../styles/Hero.module.css'
+
 
 
 // import Image from 'next/image'
 // import heroBackground from './images/heroBackground.png'
 
 const Hero = () => {
+  
   return (
   <div className={styles.hero}>
-
     <div className={styles.image}></div>
-
     <div className={styles.introCard}>
       <div>
         <h3 className={styles.schematicStyle}> &lt;html&gt; </h3>
       </div>
-      <div className={styles.title}>
+
+      <div className={styles.title} data-aos="fade-up">
         <h1>A <span style={{color:'#7EDDD3'}}>personal </span> <span style={{ color:'#F44C7E'}}> blogging</span></h1>
         <h1 style={{textAlign: 'center'}}>
           {/* &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;

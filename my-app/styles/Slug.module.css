@@ -12,7 +12,7 @@
   font-size: 1.5rem;
   background: #323A45;
   display: block;
-  padding: 4rem;
+  padding: 5vw 3vw ;
   margin: 0rem;
 }
 
@@ -25,12 +25,12 @@
 .title h2 {
   font-family: 'Inconsolata', monospace;
   font-size: 1.54rem;
-  color: aqua;
+  color: #7EDDD3;
 }
 
 .title h6 {
   font-family: 'Inconsolata', monospace;
-  color: aqua;
+  color: #7EDDD3;
   font-size: 0.8rem;
 }
 
@@ -62,6 +62,7 @@
   display: flex;
   flex-direction: column;
   align-items: left;
+  margin-top: 1rem;
 }
 
 

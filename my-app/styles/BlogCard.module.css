@@ -16,9 +16,9 @@
 }
 
 .card h2 {
+  font-size: 1.2rem;
   padding: 0.5rem 0rem;
   color: #fff;
-
 }
 
 .card h3 {
@@ -67,9 +67,3 @@
   border-radius: 50%;
   margin-right: 0.5rem;
 }
-/* 
-@media screen and (max-width: 768px) {
-  .card {
-    margin: 0rem 2rem;
-  }
-} */

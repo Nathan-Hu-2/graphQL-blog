@@ -34,9 +34,9 @@ const Hero = () => {
 
       <h3 className={styles.schematicStyle}> &lt;/html&gt; </h3>
 
-      <h3 className={styles.schematicStyle}> &lt;author&gt; </h3>
-      <h3 className={styles.schematicStyle}> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Nathan Hu</h3>
-      <h3 className={styles.schematicStyle}> &lt;/author&gt; </h3>
+      <h3 className={styles.schematicStyle}> &lt;about&gt; </h3>
+      <h3 className={styles.about}> <span style={{  color: '#F44C7E' }}>Explore</span> a breadth of topics from <span style={{ color:'#7EDDD3'}}>data structure algorithms, cybersecurity, and software engineering!</span></h3>
+      <h3 className={styles.schematicStyle}> &lt;/about&gt; </h3>
 
       
       {/* <div className={styles.title}>

@@ -3,8 +3,8 @@ import styles from './../styles/Hero.module.css'
 
 const BlogRepo = () => {
   return (
-    <div className={styles.title} style={{color:'#7EDDD3'}}>
-      <h1>Blog Repository</h1>
+    <div className={styles.title}>
+      <h1>Start<span style={{color:'#F44C7E'}}> Reading!</span></h1>
     </div>
   )
 }

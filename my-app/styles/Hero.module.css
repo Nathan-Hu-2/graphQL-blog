@@ -14,23 +14,6 @@
   -ms-animation: fadeIn 5s;
 }
 
-/* .introCard {
-    padding-top: 15vh;
-} */
-
-.image {
-  background-image: url("../components/images/heroBackground.png");
-  position: relative;
-  /* z-index: 2; */
-}
-
-
-/* .lottie {
-  float: center;
-  position: relative;
-  display: inline-flex;
-} */
-
 .title {
   color: #fff;
   padding-left: 5%;
@@ -38,7 +21,6 @@
   font-family: 'DM Serif Display', serif;
   font-size: 4.4vh;
 }
-
 
 .about {
   font-size: 1.9vh;
@@ -49,17 +31,13 @@
 }
 
 .schematicStyle {
-  /* font-size: 0.9vw; */
   font-size: 1.9vh;
   font-family: 'Freehand', cursive;
   color: #939EAD;
 }
 
-
-
 .h2 {
   font-size: 2rem;
-  /* font-family: 'mavis-reg'; */
 }
 
 .about {
@@ -77,8 +55,6 @@
     font-family: 'DM Serif Display', serif;
     font-size: 3.4vh;
     text-align: center;
-
-    /* justify-content: center; */
   }
 
   .about {
@@ -87,17 +63,12 @@
 }
 
 @media screen and (max-width: 625px) {
-  /* .hero {
-    margin: 50% 5%;
-  } */
   .title {
     color: #fff;
     padding-left: 5%;
     line-height: 2;
     font-family: 'DM Serif Display', serif;
     font-size: 3vh;
-    /* display: flex;
-    justify-content: center; */
   }
 
   .about {
@@ -150,19 +121,3 @@
   0% { opacity: 0; }
   100% { opacity: 1; }
 }
-/* 
-@media screen and (max-width: 600px) {
-
-  .hero {
-    margin: 5% 5%;
-  }
-
-  .title {
-    color: #fff;
-    padding-left: 5%;
-    line-height: 2;
-    font-family: 'DM Serif Display', serif;
-    font-size: 0.8rem;
-    justify-content: center;
-  }
-} */

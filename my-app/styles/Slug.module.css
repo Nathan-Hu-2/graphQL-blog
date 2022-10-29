@@ -5,7 +5,6 @@
   height: 30vh;
   object-fit: cover;
   border-radius: 2rem;
-
 }
 
 .blog {
@@ -44,18 +43,6 @@
   flex-direction: row;
   align-items: center;
 }
-
-/* .authdetails img {
-  width: 3rem;
-  height: 3rem;
-  border-radius: 50%;
-  margin-right: 1rem;
-  object-fit: cover;
-} */
-
-/* .authdetails h6 {
-  font-weight: 500;
-} */
 
 .authtext {
   font-family: 'Inconsolata', monospace;

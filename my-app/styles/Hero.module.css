@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
 
 .hero {
-  margin: 5% 5%;
+  margin: 5%;
 
   height: 100vh;
 }
@@ -78,7 +78,21 @@
     /* display: flex;
     justify-content: center; */
   }
+}
 
+@media screen and (max-width: 360px) {
+  /* .hero {
+    margin: 50% 5%;
+  } */
+  .title {
+    color: #fff;
+    padding-left: 5%;
+    line-height: 2;
+    font-family: 'DM Serif Display', serif;
+    font-size: 1.8vh;
+    /* display: flex;
+    justify-content: center; */
+  }
 }
 /* 
 @media screen and (max-width: 600px) {

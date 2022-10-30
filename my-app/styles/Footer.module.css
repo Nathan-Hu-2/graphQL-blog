@@ -6,9 +6,13 @@
 }
 
 .text {
-  justify-content: center;
   font-size: 0.5rem;
   color: #939EAD;
-  padding-left: 39vw;
+  text-align: center;
 }
 
+.icons {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 5vh;
+}

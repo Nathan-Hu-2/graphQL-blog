@@ -2,13 +2,8 @@
   padding-top: 0rem;
 }
 
-/* .BlogCard_text_oM0Mu {
-  background-color: #fff;
-  color: #fff
-} */
-
 .card {
-  margin: 3rem 3rem;
+  margin: 3rem 1rem;
   border-radius: 2rem;
   overflow: hidden;
   box-shadow: 15px 20px 40px rgba(24, 25, 25, 0.774);

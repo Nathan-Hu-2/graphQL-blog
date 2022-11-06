@@ -72,13 +72,13 @@ export default function BlogPost({ post }) {
         alt=""   
       />
 
-      <div className={styles.title}>
+      {/* <div className={styles.title}>
         <h2>{post.title}</h2>
         <div className={styles.authtext}>
           <h6>By {post.author.name}</h6>
           <h6 className={styles.date}>{post.datePublished}</h6>
         </div>
-      </div>
+      </div> */}
 
       <div 
         className={styles.content} 

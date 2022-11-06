@@ -21,7 +21,6 @@ export default function BlogCard({
           <h2>{title}</h2>
           <div className={styles.details}>
             <div className={styles.author}>
-              {console.log("author ovject", author.avatar)}
               <img src={author.avatar.url} ></img>
               <h3>{author.name}</h3>
             </div>
